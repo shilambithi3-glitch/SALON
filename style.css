@@ -1,0 +1,146 @@
+.hero-content {
+text-align: center;
+font-family: arial;
+padding-top:100px;
+padding-left:100px;
+padding-right: 100px;
+animation: fade-up 900ms ease-out both;
+}
+
+nav { 
+text-align:center;
+padding-top:20px;
+animation: fade-down 700ms ease-out both;
+}
+
+nav a { 
+color: black;
+display: inline-block;
+margin: 0 10px;
+ 
+}
+
+div a {
+    color:black;
+}
+
+ul {
+ display: flex;
+ flex-wrap:wrap;
+ align-content: center ;
+list-style: none;
+justify-content: center;
+gap:20px;
+ 
+}
+
+img {
+ 
+ 
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+body {
+background-color: beige;
+}
+
+ul h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    padding-top :40px;
+}
+
+.hero-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 30px;
+    color: black;
+   
+}
+
+.hero-form a{
+    background-color: aqua;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 24px;
+    text-align: center;
+}    
+ .contact-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin-top: 30px;
+    color: black;
+    resize:vertical;
+ }
+
+ .contact-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 2px;
+    resize: vertical;
+ }
+
+ .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 2px;
+    resize: vertical;
+ }
+
+ .contact-form button {
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+ }
+
+  .price {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.price h1 {
+    margin-bottom: 20px;
+}
+
+.price table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.price th,
+.price td {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: left;
+}
+
+.price th {
+    background-color: pink;
+}
+
+.price a{
+    background-color: aqua;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 24px;
+    text-align: center;
+}
