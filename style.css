@@ -4,13 +4,11 @@ font-family: arial;
 padding-top:100px;
 padding-left:100px;
 padding-right: 100px;
-animation: fade-up 900ms ease-out both;
 }
 
 nav { 
 text-align:center;
 padding-top:20px;
-animation: fade-down 700ms ease-out both;
 }
 
 nav a { 
@@ -140,7 +138,6 @@ ul h2{
 .price a{
     background-color: aqua;
     text-decoration: none;
-    display: inline-block;
     padding: 12px 24px;
     text-align: center;
 }
